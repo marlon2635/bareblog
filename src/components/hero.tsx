@@ -12,15 +12,15 @@ export default function HeroSection() {
                     </div>
 
                     <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight mb-6">
-                        A starter template for a blog.
+                        The only template you will need for a Blog made with Next.js & Markdown.
                     </h1>
 
                     <p className="text-base sm:text-lg font-medium mb-8 max-w-xl">
-                        The template uses Markdown files for content. It features tag functionality and dynamic routing by slug.
+                        The template uses Markdown files for content. It features tag functionality and dynamic routing by slug. It has a very simple setup without many dependencies aside from what is included in a default Next.js project. This is the Hero Section, Below are the Latest Articles
                     </p>
 
                     <div className="flex flex-wrap gap-4">
-                        <a href="#formblock">
+                        <a href="#latestarticles">
                             <button className="px-6 py-3 bg-black text-white font-medium rounded-xl hover:bg-gray-600 transition">
                                 Browse Latest Articles
                             </button>

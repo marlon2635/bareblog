@@ -15,7 +15,7 @@ export default async function PostPage({ params }: { params: Params }) {
     const contentHtml = processedContent.toString();
 
     return (
-        <article className="p-6">
+        <article className="p-6 w-2/3 mx-auto">
             <h1 className="text-3xl font-bold mb-2">{post.title}</h1>
             <p className="text-gray-500 text-sm mb-4">{post.date}</p>
             <div

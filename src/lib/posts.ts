@@ -7,6 +7,7 @@ export type PostMeta = {
     title: string;
     date: string;
     tags: string[];
+    excerpt: string;
 };
 
 export type Post = PostMeta & {
@@ -28,6 +29,7 @@ export function getAllPosts(): Post[] {
             slug,
             title: data.title,
             date: data.date,
+            excerpt: data.excerpt,
             tags: data.tags || [],
             content,
         };
@@ -43,6 +45,7 @@ export function getPostBySlug(slug: string): Post {
         slug,
         title: data.title,
         date: data.date,
+        excerpt: data.excerpt,
         tags: data.tags || [],
         content,
     };

@@ -18,8 +18,8 @@ export default function HomePage() {
     return (
         <main className="mx-auto w-5/6">
             <HeroSection />
-            <TagButtonGrid tagCounts={tagCounts} />
             <PostList />
+            <TagButtonGrid tagCounts={tagCounts} />
         </main>
     )
 }

@@ -10,7 +10,7 @@ const Navbar = () => {
 
     return (
         <nav className="w-full mx-auto left-0 right-0">
-            <div className="container w-2/3 mx-auto px-4 py-2 flex justify-between items-center">
+            <div className="container mx-auto px-4 py-2 flex justify-between items-center">
                 <Link href="/" className="flex items-center gap-2">
                     <Logo />
                     <div className="text-3xl font-medium">Starter Blog</div>
@@ -18,19 +18,19 @@ const Navbar = () => {
 
                 {/* Desktop nav (only visible on lg+) */}
                 <div className="hidden lg:flex items-center gap-6">
-                    <a className="ml-10" href="#solutions">
+                    <Link className="ml-10" href="/tags">
                         <button className="hover:text-gray-400 transition text-xl font-medium">
                             Browse By Tag
                         </button>
-                    </a>
-                    <a href="/about">
+                    </Link>
+                    <Link href="/about">
                         <button className="hover:text-gray-400 transition text-xl font-medium">
                             About
                         </button>
-                    </a>
-                    <a href="#formblock">
+                    </Link>
+                    <a href="#latestarticles">
                         <button className="px-8 text-white py-3 border-2 border-gray-200/20 bg-black hover:bg-gray-600 transition rounded-xl text-xl font-medium">
-                            Latest Articles
+                            All Articles
                         </button>
                     </a>
                 </div>
@@ -44,20 +44,20 @@ const Navbar = () => {
             {/* Mobile menu dropdown (visible below lg) */}
             {isMenuOpen && (
                 <div className="lg:hidden border-t border-white/10 py-4">
-                    <div className="container mx-auto px-4 flex flex-col gap-4">
-                        <a href="#solutions">
+                    <div className="container mx-auto px-4 w-3/4 text-center flex flex-col gap-4">
+                        <Link href="/tags">
                             <button className="hover:text-gray-400 transition text-xl font-medium">
-                                Solutions
+                                Browse By Tag
                             </button>
-                        </a>
-                        <a href="/about">
+                        </Link>
+                        <Link href="/about">
                             <button className="hover:text-gray-400 transition text-xl font-medium">
                                 About
                             </button>
-                        </a>
-                        <a href="#formblock">
-                            <button className="px-8 py-3 text-white border-2 border-gray-200/20 bg-black hover:bg-gray-600 transition text-white rounded-xl text-xl font-medium">
-                                Get In Touch
+                        </Link>
+                        <a href="#latestarticles">
+                            <button className="px-8 text-white py-3 border-2 border-gray-200/20 bg-black hover:bg-gray-600 transition rounded-xl text-xl font-medium">
+                                All Articles
                             </button>
                         </a>
                     </div>

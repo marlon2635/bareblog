@@ -11,7 +11,7 @@ export default function TagButtonGrid({ tagCounts }: TagButtonGridProps) {
     )
 
     return (
-        <section className="w-full bg-gray-100 rounded-xl flex flex-col items-center justify-center py-20 px-4">
+        <section className="w-full bg-gray-100 border border-gray-300 rounded-3xl flex flex-col items-center justify-center py-20 px-4">
             <h2 className="text-3xl md:text-4xl font-bold text-black mb-3 text-center">
                 Search by Tags
             </h2>
