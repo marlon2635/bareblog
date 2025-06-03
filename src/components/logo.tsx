@@ -1,6 +1,14 @@
 import React from "react";
-import { Globe } from "lucide-react";
+import Image from "next/image";
 
 export default function Logo() {
-    return <Globe className="w-6 h-6 text-black" />;
+    return (
+        <Image
+            src="/logo.png"
+            alt="BareBlog Logo"
+            width={40}
+            height={40}
+            className="w-10 h-10"
+        />
+    );
 }

@@ -12,11 +12,11 @@ export default function HeroSection() {
                     </div>
 
                     <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight mb-6">
-                        The only template you will need for a Blog made with Next.js & Markdown.
+                        Bareblog is the only template you will need for a Blog made with Next.js & Markdown.
                     </h1>
 
                     <p className="text-base sm:text-lg lg:text-xl font-medium mb-8 max-w-xl text-gray-700">
-                        The template uses Markdown files for content. It features tag functionality and dynamic routing by slug. It has a very simple setup without many dependencies aside from what is included in a default Next.js project. This is the Hero Section, Below are the Latest Articles.
+                        The template uses Markdown files for content. It features tag functionality and dynamic routing by slug. It has a very simple setup with very little dependencies aside from what is included in a default Next.js project. This is the Hero Section, Below are the Latest Articles.
                     </p>
 
                     <div className="flex flex-wrap gap-4">

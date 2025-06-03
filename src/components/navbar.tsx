@@ -13,7 +13,7 @@ const Navbar = () => {
             <div className="container mx-auto px-4 py-2 flex justify-between items-center">
                 <Link href="/" className="flex items-center gap-2">
                     <Logo />
-                    <div className="text-3xl font-medium">Starter Blog</div>
+                    <div className="text-3xl font-medium">Bareblog</div>
                 </Link>
 
                 {/* Desktop nav (only visible on lg+) */}

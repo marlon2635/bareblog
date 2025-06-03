@@ -6,8 +6,11 @@ import Footer from "@/components/footer";
 const geist = Geist({ subsets: ['latin'], weight: '400' });
 
 export const metadata = {
-    title: 'My Blog',
-    description: 'A Markdown blog with Next.js',
+    title: 'Bareblog',
+    description: 'A Markdown blog using Next.js',
+    icons: {
+        icon: "/favicon.png",
+    },
 };
 
 export default function RootLayout({
