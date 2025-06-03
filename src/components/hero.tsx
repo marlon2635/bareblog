@@ -1,5 +1,7 @@
 import React from "react";
 import HeroGraphic from "@/components/herographic";
+import { Github } from 'lucide-react';
+import Link from "next/link";
 
 export default function HeroSection() {
     return (
@@ -25,9 +27,15 @@ export default function HeroSection() {
                                 Browse Latest Articles
                             </button>
                         </a>
+                        <Link href="https://github.com/marlon2635/bareblog" target="_blank">
+                            <div
+                                className="flex items-center gap-2 px-6 py-3 bg-black text-white font-medium rounded-xl hover:bg-gray-700 transition cursor-pointer">
+                                <Github className="w-4 h-4" />
+                                Fork on GitHub
+                            </div>
+                        </Link>
                     </div>
                 </div>
-
                 {/* Right Image Placeholder */}
                 <div className="w-full">
                     <HeroGraphic />
