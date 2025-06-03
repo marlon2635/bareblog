@@ -28,11 +28,11 @@ const Navbar = () => {
                             About
                         </button>
                     </Link>
-                    <a href="#latestarticles">
+                    <Link href="/posts">
                         <button className="px-8 text-white py-3 border-2 border-gray-200/20 bg-black hover:bg-gray-600 transition rounded-xl text-xl font-medium">
                             All Articles
                         </button>
-                    </a>
+                    </Link>
                 </div>
 
                 {/* Mobile menu toggle (hidden on lg+) */}
@@ -55,11 +55,11 @@ const Navbar = () => {
                                 About
                             </button>
                         </Link>
-                        <a href="#latestarticles">
+                        <Link href="/posts">
                             <button className="px-8 text-white py-3 border-2 border-gray-200/20 bg-black hover:bg-gray-600 transition rounded-xl text-xl font-medium">
                                 All Articles
                             </button>
-                        </a>
+                        </Link>
                     </div>
                 </div>
             )}

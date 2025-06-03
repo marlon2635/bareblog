@@ -5,8 +5,7 @@ export default function PostList() {
     const posts = getAllPosts();
 
     return (
-        <div className="mt-16 mb-16 mx-auto" id="latestarticles">
-            <h1 className="text-4xl font-bold mb-10">Latest Articles</h1>
+        <div className="mt-16 mb-16 mx-auto">
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
                 {posts.map((post) => (
                     <div key={post.slug} className="bg-white shadow-md rounded-2xl p-6 hover:shadow-lg transition-shadow">
