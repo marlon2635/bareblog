@@ -31,7 +31,7 @@ export default function HeroSection() {
                             <div
                                 className="flex items-center gap-2 px-6 py-3 bg-black text-white font-medium rounded-xl hover:bg-gray-700 transition cursor-pointer">
                                 <Github className="w-4 h-4" />
-                                Fork on GitHub
+                                GitHub
                             </div>
                         </Link>
                     </div>
